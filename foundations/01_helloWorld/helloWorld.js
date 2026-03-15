@@ -1,5 +1,5 @@
 const helloWorld = function() {
-  return 'Hello, World!git '
+  return 'Hello, World!'
 };
 
 module.exports = helloWorld;
