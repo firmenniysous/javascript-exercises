@@ -1,4 +1,4 @@
-const leapYears = function(year) {
+function isLeapYear(year) {
     if (year % 4 === 0 &&
         year % 100 === 0 
         && year % 400 !== 0) {
@@ -6,10 +6,7 @@ const leapYears = function(year) {
     } else if (year % 4 === 0
         || year % 400 === 0) {
         return true;
-    } else {
-        return false;
-    }
-};
+    } else { return false; }
+}
 
-// Do not edit below this line
-module.exports = leapYears;
+console.log(isLeapYear(1807));
